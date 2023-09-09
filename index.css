@@ -1,0 +1,153 @@
+#body {
+  height: 100%;
+  width: 100%;
+  font-family: Open Sans Hebrew,sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.web-container {
+  background-color: transparent;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-background-container {
+  margin-top: -150px;
+  width: 100%;
+  max-width: 400px;
+  height: fit-content;
+}
+
+.top-background-content {
+  width: 100%;
+  max-width: 400px;
+  height: 375px;
+  background-image: url("https://martinvalen.com/17868-large_default/chunky-sneakers-shoes-white-red.jpg");
+  background-size: cover;
+}
+
+.receipt-container {
+  background-color: whitesmoke;
+  height: fit-content;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.receipt-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  margin-top: -50px;
+  border-radius: 20px 20px 20px 20px;
+  -webkit-box-shadow: 0px 0px 8px -3px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0px 0px 8px -3px rgba(66, 68, 90, 1);
+  box-shadow: 0px 0px 8px -3px rgba(66, 68, 90, 1);
+}
+
+.receipt-header {
+  background-color: whitesmoke;
+  height: fit-content;
+  min-height: 50px;
+  width: 100%;
+  /* padding-top: 20px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px 20px 0 0;
+}
+
+img {
+  width: 80px;
+  height: 70px;
+}
+
+.logo-text {
+  margin: -10px 0 0 0;
+}
+
+.customerName {
+  width: 100%;
+  height: fit-content;
+  min-height: 50px;
+  background-color: whitesmoke;
+  /* margin-top: 10px; */
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.receipt-body {
+  background-color: whitesmoke;
+  height: fit-content;
+  width: 100%;
+  border-radius: 0 0 20px 20px;
+}
+
+.social-media-container {
+  width: 85%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-radius: 20px 20px 20px 20px;
+  -webkit-box-shadow: 0px 0px 8px -3px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0px 0px 8px -3px rgba(66, 68, 90, 1);
+  box-shadow: 0px 0px 8px -3px rgba(66, 68, 90, 1);
+}
+
+.social-media-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+  height: fit-content;
+  min-height: 70px;
+  width: 100%;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.social-media-logos-container {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  height: fit-content;
+  padding: 20px 0 20px 0;
+}
+
+.facebook-logo, .instagram-logo, .youtube-logo, .twitter-logo {
+  height: 30px;
+  width: 40px;
+}
+
+.receipt-footer {
+  background-color: transparent;
+  text-align: center;
+  height: 50px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+tr.spaceUnder>th {
+  padding-bottom: 5px;
+}
+
+tr.spaceUnder>td {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+tr.hr>td {
+  border-bottom: 2px dashed grey;
+}
