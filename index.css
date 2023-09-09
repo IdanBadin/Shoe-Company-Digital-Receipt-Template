@@ -117,13 +117,13 @@ img {
 .social-media-logos-container {
   display: flex;
   justify-content: space-between;
-  width: 60%;
+  width: 85%;
   height: fit-content;
-  padding: 20px 0 20px 0;
+  padding: 20px 10px 20px 10px;
 }
 
 .facebook-logo, .instagram-logo, .youtube-logo, .twitter-logo {
-  height: 30px;
+  height: 50px;
   width: 40px;
 }
 
