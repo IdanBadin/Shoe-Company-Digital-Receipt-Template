@@ -438,7 +438,7 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     document.getElementById("popup-container").style.display = "block";
     document.getElementById("popup-content").style.display = "block";
-  }, 1);
+  }, 1000);
 });
 
 closePopupButton.addEventListener("click", () => {
