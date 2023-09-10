@@ -181,10 +181,12 @@ tr.spaceUnder>td {
   background-color: #434242;
   color: white;
   border: none;
-  padding: 10px;
+  /* padding: 10px; */
   cursor: pointer;
   border-radius: 100%;
   margin-right: 5px;
   margin-top: 5px;
-  padding: 10px;
+  /* padding: 10px; */
+  height: 25px;
+  width: 25px;
 }
