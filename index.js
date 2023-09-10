@@ -428,4 +428,4 @@ for(var i=0; i < receipt.Items.length; i++) {
 }
 
 $("#itemsTbl").append("<tr><td colspan='2' style='border-bottom: 2px solid black;padding-top: 20px'><td></tr>");
-$("#itemsTbl").append("<tr><td style='padding: 15px 0'>Total</td><td style='padding-top: 15px'>"+formatNumber(receipt.Total)+"</td></tr>");
+$("#itemsTbl").append("<tr><td style='padding: 15px 0'>Total</td><td style='padding: 15px 0'>"+formatNumber(receipt.Total)+"</td></tr>");
