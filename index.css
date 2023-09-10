@@ -158,13 +158,13 @@ tr.spaceUnder>td {
   background-color: white;
   z-index: 999;
   position: absolute;
-  z-index: 999;
-  width: 400px;
+  width: 300px;
   height: 300px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 20px;
+  padding: 20px;
 }
 
 .popup h1 {
@@ -177,16 +177,16 @@ tr.spaceUnder>td {
 }
 
 .popup-content button {
-  float: right;
+  top: 0;
+  right: 0;
+  position: absolute;
   background-color: #434242;
   color: white;
   border: none;
-  /* padding: 10px; */
   cursor: pointer;
   border-radius: 100%;
   margin-right: 5px;
   margin-top: 5px;
-  /* padding: 10px; */
   height: 25px;
   width: 25px;
 }
