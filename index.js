@@ -411,15 +411,6 @@ receipt = {
   "SuppressSMS": false
 }
 
-function formatNumber(number) {
-  const formattedNumber = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(number);
-  return formattedNumber;
-}
-
-function getAddtionalValue(item, Key) {
-  return item.AdditionalData && item.AdditionalData.find(a=>a.Key == Key) ? item.AdditionalData.find(a=>a.Key == Key).Value : "bve";
-}
-
 for(var i=0; i < receipt.Items.length; i++) {
   var item = receipt.Items[i];
   var price = item.Price;
@@ -442,6 +433,29 @@ window.addEventListener("load", () => {
 });
 
 closePopupButton.addEventListener("click", () => {
+  closePopup()
+});
+
+
+document.body.addEventListener("click", event => {
+  handlePopupClick(event);
+});
+
+function handlePopupClick(event) {
+  const isPopupContentClicked = popupContent.contains(event.target);
+  if (isPopupContentClicked) {
+    // openPopup();
+  } else {
+    closePopup();
+  }
+}
+
+function closePopup() {
   popup.style.display = "none";
   popupContent.style.display = "none";
-});
+}
+
+function formatNumber(number) {
+  const formattedNumber = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(number);
+  return formattedNumber;
+}
