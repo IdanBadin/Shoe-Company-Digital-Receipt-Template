@@ -190,3 +190,11 @@ tr.spaceUnder>td {
   height: 25px;
   width: 25px;
 }
+
+#close-popup {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  height: 40px;
+  width: 40px;
+}
