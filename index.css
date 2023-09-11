@@ -162,7 +162,7 @@ tr.spaceUnder>td {
   height: 300px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-52%, -52%);
   border-radius: 20px;
   padding: 20px;
 }
@@ -174,21 +174,6 @@ tr.spaceUnder>td {
 
 .popup p {
   margin-top: 10px;
-}
-
-.popup-content button {
-  top: 0;
-  right: 0;
-  position: absolute;
-  background-color: #434242;
-  color: white;
-  border: none;
-  cursor: pointer;
-  border-radius: 100%;
-  margin-right: 5px;
-  margin-top: 5px;
-  height: 25px;
-  width: 25px;
 }
 
 #close-popup {
