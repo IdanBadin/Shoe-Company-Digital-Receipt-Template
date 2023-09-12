@@ -165,7 +165,7 @@ tr.spaceUnder>td {
   transform: translate(-52%, -52%);
   border-radius: 20px;
   padding: 20px;
-  transition: width 0.5s, height 0.5s;
+  transition: width 0.1s, height 0.1s;
 }
 
 .popup h1 {
