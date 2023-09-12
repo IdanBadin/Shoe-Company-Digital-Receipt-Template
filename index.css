@@ -158,13 +158,14 @@ tr.spaceUnder>td {
   background-color: white;
   z-index: 999;
   position: absolute;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   top: 50%;
   left: 50%;
   transform: translate(-52%, -52%);
   border-radius: 20px;
   padding: 20px;
+  transition: width 0.5s, height 0.5s;
 }
 
 .popup h1 {
