@@ -148,7 +148,6 @@ tr.spaceUnder>td {
   bottom: 0;
   left: 0;
   z-index: 1;
-  /* padding: 20px; */
   background-color: black;
   opacity: 0.5;
 }
@@ -165,7 +164,7 @@ tr.spaceUnder>td {
   transform: translate(-50%, -50%);
   border-radius: 20px;
   padding: 20px;
-  transition: width 0.1s, height 0.1s;
+  transition: width 0.3s, height 0.3s;
 }
 
 .popup h1 {

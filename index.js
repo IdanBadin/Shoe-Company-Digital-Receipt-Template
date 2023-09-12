@@ -430,6 +430,7 @@ window.addEventListener("load", () => {
     document.getElementById("popup-container").style.display = "block";
     document.getElementById("popup-content").style.display = "block";
   }, 1000);
+
   setTimeout(() => {
     popupContent.style.width = "300px";
     popupContent.style.height = "300px";
